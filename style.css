@@ -12,19 +12,27 @@
     margin: 0 auto;
     column-gap: 10px;
     row-gap: 10px;
+    justify-items: end;
 }
 h1{
     text-align: center;
 }
 .item{
-    /* width: 100px;
-    height: 50px; */
+    width: 100px;
+    height: 50px;
     background-color: greenyellow;
     border: 2px solid black;
     text-align: center;
+   
 }
 
-.one{
+/* .one{
     grid-column-start:1 ;
     grid-column-end: 4;
+    grid-column: 1/4;
+    grid-column: 1/span 3;
 }
+
+.two{
+    grid-row: 1/2;
+} */
